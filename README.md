@@ -5,7 +5,8 @@
 - **Domain**: [chukwuweta.mooo.com](http://chukwuweta.mooo.com)
 
 ## Screenshot
-Include a screenshot showing your HTML page in a browser. (Add this screenshot to the repository.)
+![Screenshot](Screenshot.jpeg)
+
 
 ---
 
