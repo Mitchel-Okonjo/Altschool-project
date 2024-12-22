@@ -1,8 +1,8 @@
 # Documentation for Cloud Project
 
 ## Public IP Address and URL
-- **Public IP Address**: [34.226.205.11](34.226.205.11)
-- **Domain**: [chukwuweta.chickenkiller.com](http://chukwuweta.chickenkiller.com)
+- **Public IP Address**: `34.226.205.11`
+- **Domain**: [chukwuweta.mooo.com](http://chukwuweta.mooo.com)
 
 ## Screenshot
 Include a screenshot showing your HTML page in a browser. (Add this screenshot to the repository.)
@@ -22,7 +22,6 @@ Include a screenshot showing your HTML page in a browser. (Add this screenshot t
    - **Security Group**: Allow the following ports:
      - SSH (port 22)
      - HTTP (port 80)
-     - HTTPS (port 443).
 4. Launch the instance and note the public IPv4 address.
 
 #### Connect to the Server:
@@ -76,15 +75,19 @@ sudo chmod 644 /var/www/html/index.html
 ```
 
 ### 4. Configuring Networking
-#### Allow HTTP and HTTPS Traffic:
-1. Update the instance security group to allow traffic on ports 80 (HTTP) and 443 (HTTPS).
+#### Allow HTTPS Traffic:
+1. Update the instance security group to allow traffic on port 443 (HTTPS).
 2. Verify the firewall settings:
    ```bash
    sudo ufw allow 'Nginx Full'
    sudo ufw enable
    sudo ufw status
    ```
-
+### 5. Setting Up HTTPS
+•Use Certbot to generate and configure an SSL certificate:
+  ```bash
+  sudo certbot --nginx
+  ```
 ---
 
 ## Repository Structure
