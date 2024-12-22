@@ -1,8 +1,8 @@
 # Documentation for Cloud Project
 
-## Public IP Address or URL
-- **Public IP Address**: `34.226.205.11`
-- **Domain (if DNS was set up)**: `https://chukwuweta.mooo.com`
+## Public IP Address and URL
+- **Public IP Address**: [34.226.205.11](34.226.205.11)
+- **Domain**: [chukwuweta.chickenkiller.com](http://chukwuweta.mooo.com)
 
 ## Screenshot
 Include a screenshot showing your HTML page in a browser. (Add this screenshot to the repository.)
