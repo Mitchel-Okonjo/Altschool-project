@@ -2,7 +2,7 @@
 
 ## Public IP Address and URL
 - **Public IP Address**: [34.226.205.11](34.226.205.11)
-- **Domain**: [chukwuweta.chickenkiller.com](http://chukwuweta.mooo.com)
+- **Domain**: [chukwuweta.chickenkiller.com](http://chukwuweta.chickenkiller.com)
 
 ## Screenshot
 Include a screenshot showing your HTML page in a browser. (Add this screenshot to the repository.)
